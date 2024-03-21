@@ -34,7 +34,7 @@ printf 'GET http://localhost:8080/dir/readme.txt HTTP/1.0\r\n\r\n' |nc localhost
 curl -i --http1.0 http://127.0.0.1:8080/dir/readme.txt
 
 ## Test Report / Test Coverage
-[Test Report](./doc/test_cases.md)
+[Test Report](./doc/test_cases.md) ':include'
 
 ## Performance Benchmark Report
 [Performance Benchmark Report](./doc/benchmark_report.md)
