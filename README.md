@@ -1,5 +1,10 @@
 # Simple HTTP1.0 WebServer
 
+## Highlight
+
+- Covering test cases that not match http request format (see "Test Report" part)
+- Supporting QPS 14000+ ~ 17000+ with very low resource usage (see "Performance Benchmark Report" part)
+
 ## Features
 
 - Http 1.0 webserver, supporting GET requests
@@ -34,7 +39,7 @@ printf 'GET http://localhost:8080/dir/readme.txt HTTP/1.0\r\n\r\n' |nc localhost
 curl -i --http1.0 http://127.0.0.1:8080/dir/readme.txt
 
 ## Test Report / Test Coverage
-[Test Report](./doc/test_cases.md) ':include'
+[Test Report](./doc/test_cases.md)
 
 ## Performance Benchmark Report
 [Performance Benchmark Report](./doc/benchmark_report.md)
